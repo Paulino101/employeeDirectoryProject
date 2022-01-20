@@ -1,5 +1,5 @@
 let employees = [];
-let urlAPI = `https://randomuser.me/api/?results=12&inc=name`;
+let urlAPI = `https://randomuser.me/api/?results=12&inc=name,email,picture,location,phone,dob`;
 let gridContainer = document.querySelector(".grid-container");
 let overlay = document.querySelector(".overlay");
 let modalContainer = document.querySelector(".modal-container");

@@ -28,3 +28,35 @@ body {
 .hidden {
   display: none;
 }
+.grid-container {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+  border-radius: 50%;
+  padding: 1rem;
+  max-width: 35%;
+  height: auto;
+}
+.card {
+  display: flex;
+  border: 1px solid rgb(211, 207, 207);
+  margin: 1rem;
+  border-radius: 5%;
+}
+.email,
+.address {
+  color: grey;
+  max-width: 160px;
+  margin: 0;
+  font-size: 12px;
+}
+header > h1 {
+  font-size: 1rem;
+}
+// Modal

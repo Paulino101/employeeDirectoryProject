@@ -32,4 +32,48 @@ body {
 .hidden {
   display: none;
 }
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: stretch;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+  border-radius: 50%;
+  padding: 1rem;
+  max-width: 35%;
+  height: auto;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #d3cfcf;
+  margin: 1rem;
+  border-radius: 5%;
+}
+
+.email,
+.address {
+  color: grey;
+  max-width: 160px;
+  margin: 0;
+  font-size: 12px;
+}
+
+header > h1 {
+  font-size: 1rem;
+}
 /*# sourceMappingURL=style.css.map */
