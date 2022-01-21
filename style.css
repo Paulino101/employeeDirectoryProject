@@ -76,4 +76,21 @@ img {
 header > h1 {
   font-size: 1rem;
 }
+
+div > .text-container {
+  text-align: -webkit-center;
+}
+
+.modal-container > .text-container {
+  text-align: -webkit-center;
+  color: grey;
+}
+
+.text-container > h2 {
+  color: black;
+}
+
+.text-container > .address {
+  max-width: none;
+}
 /*# sourceMappingURL=style.css.map */
